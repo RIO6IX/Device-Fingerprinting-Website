@@ -1,0 +1,144 @@
+/* ===== Basic Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Body ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #1b2b3a;
+    padding: 20px;
+}
+
+/* ===== Container ===== */
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== Header ===== */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.header h1 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* ===== Grid & Cards ===== */
+.grid {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #eef2f5;
+    border-radius: 12px;
+    background: #fcfdff;
+    min-width: 280px;
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ===== Attributes Box ===== */
+.attrs {
+    font-family: monospace;
+    background: #0b1220;
+    color: #e6eef6;
+    padding: 12px;
+    border-radius: 8px;
+    overflow: auto;
+    max-height: 420px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* ===== Buttons ===== */
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* ===== Form Elements ===== */
+.input {
+    padding: 10px 12px;
+    border: 1px solid #dde;
+    border-radius: 8px;
+    width: 100%;
+}
+.form-row {
+    margin-bottom: 12px;
+}
+label.switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* ===== Alerts ===== */
+.alert {
+    padding: 10px 12px;
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    color: #856404;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.bad {
+    color: #c00;
+    font-weight: 700;
+}
+
+/* ===== View Details Box ===== */
+.view-details {
+    background: #f8f9fb;
+    border-radius: 8px;
+    padding: 12px;
+    max-height: 200px;
+    overflow: auto;
+    white-space: pre-wrap;
+}
+
+/* ===== Small Text ===== */
+.small {
+    font-size: 13px;
+    color: #667;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    .grid {
+        flex-direction: column;
+    }
+    .card {
+        min-width: 100%;
+    }
+}
