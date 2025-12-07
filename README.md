@@ -10,8 +10,7 @@ This repository includes a working demo website, source code, and a full researc
 ---
 
 ## 📹 Demo Video  
-👉[![Demo Video](https://raw.githubusercontent.com/RIO6IX/Device-Fingerprinting-Website/main/demo-thumbnail.png)](https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device-Fringerprinting-Web-DEMO_CHANUKA.mp4)
-
+👉 https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device-Fringerprinting-Web-DEMO_CHANUKA.mp4
 
 ---
 
