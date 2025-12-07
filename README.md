@@ -12,14 +12,14 @@ This repository includes a working demo website, source code, and a full researc
 ---
 
 ## 📹 Demo Video  
-👉 https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device-Fringerprinting-Web-DEMO_CHANUKA.mp4
+Watch the full demonstration of the Device Fingerprinting Web System here:  
+👉 **[Click to view the demo video](https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device-Fringerprinting-Web-DEMO_CHANUKA.mp4)**
 
 ---
 
 ## 📄 Research Report  
-**Device Fingerprinting Research & Demo v1 (PDF)**  
-Download the report here:  
-👉 https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device_Fingerprinting_Research%26Demo_CHANUKA.pdf
+Read the complete research and implementation details in the official PDF report:  
+👉 **[Download the Research Report (PDF)](https://github.com/RIO6IX/Device-Fingerprinting-Website/blob/main/Device_Fingerprinting_Research%26Demo_CHANUKA.pdf)**
 
 ---
 
